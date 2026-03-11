@@ -1,7 +1,7 @@
 public class titik {
 
-    double absis;
-    double ordinat;
+    private double absis;
+    private double ordinat;
 
     
     titik() {
@@ -31,8 +31,8 @@ public class titik {
 
 
     void geser(double x, double y){
-        absis = absis +x;
-        ordinat = ordinat + y;
+        this.absis = absis +x;
+        this.ordinat = ordinat + y;
     }
 
     void printTitik(){
